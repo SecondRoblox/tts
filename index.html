@@ -129,14 +129,18 @@
                     <p class="text-white">Umm, update your browser.</p>
                 </audio>
                 <a id="download" href="" download style="display: none;" class="bg-gray-900 px-3 py-2 rounded-md text-white w-[200px] m-auto border border-white border-opacity-50 transition duration-200">
-                    <img src="/public/download.svg" class="text-white float-left w-6"/> Download
+                    Download
                 </a>
             </div>
         </div>
         
-        <div class="bg-blue-500 md:mt-11 p-11 md:mx-auto h-fit md:w-3/5 md:rounded mx-auto rounded-md border border-gray-900" id="error" style="display: none">
-            <h1 class="text-center font-bold text-xl">Error</h1>
-            <p class="text-center" id="errortext">There was an error? Reload the page.</p>
+      <div class="bg-blue-500 md:mt-11 p-11 md:mx-auto h-fit md:w-3/5 md:rounded mx-auto rounded-md border border-gray-900" id="error" style="display: none">
+    <h1 class="text-center font-bold text-xl">Error</h1>
+    <p class="text-center" id="errortext">There was an error. Please reload the page or try again later.</p>
+    <button class="bg-red-500 text-white rounded px-4 py-2 mt-4" onclick="location.reload()">Reload</button>
+</div>
+
+</p>
         </div>
     </div>
 </body>
